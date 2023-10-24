@@ -56,14 +56,14 @@ header{
 }
 
 h1{
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
     padding: 30%;
     margin: 20px 20px 20px 20px;
     border: 5px solid burlywood;
     border-radius: 15px;
     background-color: azure;
-    
+    line-height: 100%;
 
 }
 .skip-main{
@@ -88,7 +88,8 @@ img{
 h2{
     font-size: 200%;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px;
+    padding: 20px;
 }
 h3{
     font-size: 150%;
@@ -214,6 +215,41 @@ ol li{
     transition: transform 0.3s;
 }
 
-.griditem img:hover{
-    transform: scale(1.1);
+@media screen and (prefers-reduced-motion: reduce){
+    .griditem img{
+        transition: none;
+    }
+    .nav-list li.active a::before {
+        position: absolute;
+        left: -20px;
+        top: 50%;
+        transform: none;
+    }
+}
+.places1{
+    background-color: rgb(211, 213, 226);
+}
+.places2{
+    background-color: rgb(147, 143, 216);
+}
+.places3{
+    background-color: rgb(148, 223, 181);
+}
+.places4{
+    background-color: rgb(202, 251, 255);
+}
+.places5{
+    background-color: rgb(248, 255, 181);
+}
+.places6{
+    background-color: rgb(253, 187, 220);
+}
+.recipe1{
+    background-color: rgb(255, 235, 181);
+}
+.recipe2{
+    background-color: rgb(191, 255, 255);
+}
+.recipe3{
+    background-color: rgb(234, 255, 114);
 }
