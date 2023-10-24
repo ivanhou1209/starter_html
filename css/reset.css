@@ -1,0 +1,54 @@
+/* Reset CSS */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default header and paragraph margins */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+/* Remove default button and input styles */
+button, input {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default image border and spacing */
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+/* Reset the styling of the main HTML5 elements */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font for the entire document */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Optional: Add your custom styles below this point */
+
+/* End of Reset CSS */
